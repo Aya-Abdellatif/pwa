@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    navigator.serviceWorker.register('pwa/sw.js')
+    navigator.serviceWorker.register('/pwa/sw.js')
         .then(reg => {
             console.log('registered', reg)
         })
